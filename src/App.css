@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 .img-info {
-  width: 250px;
+  width: 75%;
   height: auto;
   border-radius: 120px;
 }
@@ -38,4 +38,13 @@
   box-shadow: 5px 10px 5px lightslategray;
   padding: 20px 50px;
   box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .info-div {
+    width: 100%;
+    text-align: center;
+  }
+  .main {
+    max-width: 100%;
+  }
 }

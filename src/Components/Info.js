@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../img.jpg";
+import img from "../test.jpg";
 import "../App.css";
 import mailIcon from "../assets/icons8-gmail-50-2.png";
 import locIcon from "../assets/icons8-address-50.png";
@@ -18,7 +18,7 @@ const Info = () => {
           {" "}
           <img src={mailIcon} className="info-mailImg" alt="mail" />{" "}
         </span>{" "}
-        mohammedkebbay5@mail.com
+        mohammedkebbay5@gmail.com
       </h4>
       <h4>
         {" "}
@@ -30,8 +30,10 @@ const Info = () => {
       </h4>
       <p>
         <span>
-          {" "}
-          <img src={gitIcon} alt="github" />{" "}
+          <a href="https://github.com/mohammed599">
+            {" "}
+            <img src={gitIcon} alt="github" />{" "}
+          </a>
         </span>
         <span>
           {" "}
