@@ -10,34 +10,46 @@ const Info = () => {
   return (
     <div className="info-div">
       <img src={img} alt="img" className="img-info" />
-      <h2> Mohammed Kebbay</h2>
-      <h3> Fullstack developer</h3>
-      <h4>
+      <h4> Mohammed Kebbay</h4>
+      <h5 className=" mb-3 mt-3 text-muted"> Fullstack developer</h5>
+      <h6 className="mb-4">
         {" "}
         <span>
           {" "}
           <img src={mailIcon} className="info-mailImg" alt="mail" />{" "}
         </span>{" "}
-        mohammedkebbay5@gmail.com
-      </h4>
-      <h4>
+        <a href="mailto:kebbaymke@gmail.com" className="mail-link">
+          kebbaymke@gmail.com
+        </a>
+      </h6>
+      <h6 className="mb-3">
         {" "}
         <span>
           {" "}
           <img src={locIcon} alt="locatiion" className="info-addressImg" />
         </span>
         Nairobi, Kenya
-      </h4>
+      </h6>
       <p>
         <span>
-          <a href="https://github.com/mohammed599">
+          <a
+            href="https://github.com/mohammed599"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
             <img src={gitIcon} alt="github" />{" "}
           </a>
         </span>
         <span>
-          {" "}
-          <img src={inIcon} alt="linkedin" />{" "}
+          <a
+            href="https://www.linkedin.com/in/mohammed-kebbay-2b74a2213/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            <img src={inIcon} alt="linkedin" />{" "}
+          </a>
         </span>
       </p>
     </div>

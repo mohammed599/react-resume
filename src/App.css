@@ -7,6 +7,8 @@
   box-shadow: 10px 10px 10px lightslategray;
   padding: 20px 50px;
   box-sizing: border-box;
+  max-height: 100vh;
+  overflow: hidden;
 }
 .img-info {
   width: 75%;
@@ -23,6 +25,10 @@
   width: 20px;
   height: auto;
 }
+.mail-link {
+  text-decoration: none;
+  color: black;
+}
 
 /* Skills.js */
 .skills-div {
@@ -38,6 +44,19 @@
   box-shadow: 5px 10px 5px lightslategray;
   padding: 20px 50px;
   box-sizing: border-box;
+}
+/* projects.js */
+
+.projects-div {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.project {
+  /*border: 1px solid black; */
+}
+.proj-link {
+  text-decoration: none;
+  color: white;
 }
 @media (max-width: 768px) {
   .info-div {
